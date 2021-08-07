@@ -30,7 +30,7 @@ SAMPLES=bin\raw-identify.exe bin\simple_dcraw.exe  bin\dcraw_emu.exe bin\dcraw_h
 	bin\rawtextdump.exe
 
 LIBSTATIC=lib\libraw_static.lib
-DLL=bin\libraw32.dll
+DLL=bin\libraw_fileonq32.dll
 LIBDLL=lib\libraw.lib
 
 all: $(DLL) $(LIBSTATIC) $(SAMPLES)
