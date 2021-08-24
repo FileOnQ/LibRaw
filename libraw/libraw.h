@@ -165,6 +165,7 @@ extern "C"
   DllDef int libraw_get_color_maximum(libraw_data_t *lr);
   DllDef void libraw_set_output_tif(libraw_data_t *lr, int value);
   DllDef libraw_iparams_t *libraw_get_iparams(libraw_data_t *lr);
+  DllDef libraw_output_params_t *libraw_get_output_params(libraw_data_t *lr);
   DllDef libraw_lensinfo_t *libraw_get_lensinfo(libraw_data_t *lr);
   DllDef libraw_imgother_t *libraw_get_imgother(libraw_data_t *lr);
 

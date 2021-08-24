@@ -80,6 +80,13 @@ extern "C"
       return NULL;
     return &(lr->idata);
   }
+  
+  libraw_output_params_t *libraw_get_output_params(libraw_data_t *lr) 
+  {
+    if (!lr)
+      return NULL;
+    return &(lr->params);
+  }
 
   libraw_lensinfo_t *libraw_get_lensinfo(libraw_data_t *lr)
   {
